@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filtering_genres"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_filter_list_white_24px"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_genres">
+        <menu></menu>
+    </item>
+
+    <item
+        android:id="@+id/action_sorting"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_sort_white_24px"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_sorting">
+        <menu>
+            <item android:id="@+id/action_sorting_popularity_descending"
+                android:title="@string/menu_sorting_popularity_descending" />
+            <item android:id="@+id/action_sorting_popularity_ascending"
+                android:title="@string/menu_sorting_popularity_ascending" />
+            <item android:id="@+id/action_sorting_rating_descending"
+                android:title="@string/menu_sorting_rating_descending" />
+            <item android:id="@+id/action_sorting_rating_ascending"
+                android:title="@string/menu_sorting_rating_ascending" />
+            <item android:id="@+id/action_sorting_release_descending"
+                android:title="@string/menu_sorting_release_descending" />
+            <item android:id="@+id/action_sorting_release_ascending"
+                android:title="@string/menu_sorting_release_ascending" />
+        </menu>
+    </item>
+
+</menu>
